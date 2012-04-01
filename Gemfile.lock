@@ -6,7 +6,7 @@ GIT
 
 GIT
   remote: git://github.com/maxwell/whofinger.git
-  revision: 3edc4ad5b026b206a252bcb360b92e6e1bc7f3e8
+  revision: 2fca59778de9bce9e5e04a44b150780945e6af7e
   specs:
     whofinger (0.0.1)
       faraday
