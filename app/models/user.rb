@@ -16,7 +16,7 @@ class User < ActiveRecord::Base
   end
 
   def email_identifier
-    host = URI.parse(ENV.fetch('APP_HOST', 'example.org')).host
+    host = URI.parse(ENV.fetch('APP_HOST', 'http://set-app-host-in-env.org')).host
     "#{username}@#{host}"
   end
 end
