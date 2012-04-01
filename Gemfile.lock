@@ -1,12 +1,12 @@
 GIT
   remote: git://github.com/maxwell/who_grant_sig.git
-  revision: 39e3850cdcb510e13c4dfb28da28f03f0da0ea0a
+  revision: dee5ae833520ae4a9fb4e1eda471072d4521dc11
   specs:
     who_grant_sig (0.0.1)
 
 GIT
   remote: git://github.com/maxwell/whofinger.git
-  revision: f7689d0642edac490e7126f3422aba10d0cc62d2
+  revision: 3edc4ad5b026b206a252bcb360b92e6e1bc7f3e8
   specs:
     whofinger (0.0.1)
       faraday
@@ -63,7 +63,6 @@ GEM
       multipart-post (~> 1.1)
       rack (~> 1.1)
     faraday_middleware (0.8.6)
-      faraday (>= 0.7.4, < 0.9)
       faraday (>= 0.7.4, < 0.9)
     hike (1.2.1)
     i18n (0.6.0)

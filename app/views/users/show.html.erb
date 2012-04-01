@@ -12,9 +12,13 @@
 
 <p>
   <b>grant:</b>
-  <%= WhoGrantSig::Header.new(@user).grant.inspect %>
+  <%= @grant.inspect %>
 </p>
 
+
+<p> <b>verified?</b>
+  <%= @verifier.verifed? %>
+</p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
