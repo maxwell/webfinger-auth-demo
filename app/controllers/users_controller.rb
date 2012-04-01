@@ -15,7 +15,6 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @grant = WhoGrantSig::Header.new(@user).grant
-    @verifier = WhoGrantSig::Validator.new(@grant)
 
     
     respond_to do |format|
