@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    puts request.url
     @users = User.all
 
     respond_to do |format|
