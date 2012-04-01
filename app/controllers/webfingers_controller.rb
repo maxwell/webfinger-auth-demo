@@ -7,7 +7,7 @@ class WebfingersController < ApplicationController
   layout false
 
   def host_meta
-    @host_meta = HostMetaPage.new(request)
+    @host_meta = HostMetaPresenter.new(request)
   end
 
 
