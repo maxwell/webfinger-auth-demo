@@ -10,6 +10,11 @@
   <%= @user.key %>
 </p>
 
+<p>
+  <b>grant:</b>
+  <%= WhoGrantSig::Header.new(@user).grant.inspect %>
+</p>
+
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

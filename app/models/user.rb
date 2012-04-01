@@ -12,4 +12,8 @@ class User < ActiveRecord::Base
   def private_key 
     OpenSSL::PKey::RSA.new(self.key)
   end
+
+  def email_identifier
+    "#{username}@joindiaspora.com"
+  end
 end
