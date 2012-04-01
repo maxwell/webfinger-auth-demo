@@ -1,3 +1,5 @@
+require 'uri'
+
 class User < ActiveRecord::Base
   before_create :generate_key
 
@@ -14,6 +16,7 @@ class User < ActiveRecord::Base
   end
 
   def email_identifier
-    "#{username}@joindiaspora.com"
+    host = URI.parse(ENV.fetch('APP_HOST', 'example.org')).host
+    "#{username}@#{host}"
   end
 end
