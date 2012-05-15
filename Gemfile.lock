@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/maxwell/who_grant_sig.git
-  revision: c3112eef41fa43ce7bdd5db4e337d3338abe2832
+  revision: cb536d260c9634f579a2d4632cbd7d569d892d0c
   specs:
     who_grant_sig (0.0.1)
 
